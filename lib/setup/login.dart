@@ -49,7 +49,7 @@ class _SignInState extends State<SignIn> {
               padding: EdgeInsets.only(left: 20.0, right: 20.0),
               child: TextFormField(
                 controller: passwordController,
-                keyboardType: TextInputType.invisiblePassword,
+                keyboardType: TextInputType.visiblePassword,
                 decoration: InputDecoration(
                   icon: Icon(Icons.lock),
                   hintText: 'Password',
