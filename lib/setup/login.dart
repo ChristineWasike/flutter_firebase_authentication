@@ -48,6 +48,7 @@ class _SignInState extends State<SignIn> {
             Padding(
               padding: EdgeInsets.only(left: 20.0, right: 20.0),
               child: TextFormField(
+                obscureText: true,
                 controller: passwordController,
                 keyboardType: TextInputType.visiblePassword,
                 decoration: InputDecoration(
