@@ -2,22 +2,18 @@ import 'package:firebase_authentication/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class _SignIn extends StatefulWidget {
+class SignIn extends StatefulWidget {
   @override
   _SignInState createState() => _SignInState();
 }
 
-class _SignInState extends State<_SignIn> {
+class _SignInState extends State<SignIn> {
   final formKey = GlobalKey<FormState>();
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-
   bool isLoading = false;
 
-  
   @override
-
-  
   Widget build(BuildContext context) {
 
       return Scaffold(
