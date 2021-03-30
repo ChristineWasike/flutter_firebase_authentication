@@ -1,3 +1,10 @@
+# Group Number 
+Breakout room 3 
+# Members 
+- Christine Wasike 
+- Ayo-Fisher Oluwapamilerin 
+- Pacis Ishimwe
+
 # firebase_authentication
 
 Authentication with Firebase.  Week 9 Session 2
