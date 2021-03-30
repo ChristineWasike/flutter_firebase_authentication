@@ -18,9 +18,30 @@ class _HomeState extends State<Home> {
       ),
       body: Column(
         children: [
-          Text(generateAutoWord.asCamelCase),
+          Padding(
+            padding: EdgeInsets.only(top: 20, right: 5),
+            child: Text(
+              "Random Word",
+              style: TextStyle(fontSize: 20),
+            ),
+          ),
+          Padding(
+            padding: EdgeInsets.only(top: 20, right: 5),
+            child: Text(
+              generateAutoWord.asPascalCase,
+              style: TextStyle(fontSize: 16),
+            ),
+          ),
         ],
       ),
     );
   }
 }
+/*
+I can see clearly now that the rain is gone
+Definitely gonna make this worthwhile
+what kind of crap is this ?
+Your keyboard makes so much noise
+
+
+ */
