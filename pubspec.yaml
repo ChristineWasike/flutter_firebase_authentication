@@ -34,6 +34,7 @@ dependencies:
   firebase_auth: ^1.0.1
 
   provider: ^5.0.0
+  english_words: ^3.1.5
 
 dev_dependencies:
   flutter_test:
