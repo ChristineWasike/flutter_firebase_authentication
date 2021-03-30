@@ -1,9 +1,9 @@
 # Group Number 
 Breakout room 3 
 # Members 
-Christine Wasike 
-Ayo-Fisher Oluwapamilerin 
-Pacis Ishimwe
+- Christine Wasike 
+- Ayo-Fisher Oluwapamilerin 
+- Pacis Ishimwe
 
 # firebase_authentication
 
