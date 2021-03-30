@@ -1,27 +1,25 @@
-import 'dart:js';
-
 import 'package:firebase_authentication/pages/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 
-class SignIn extends StatefulWidget {
+class _SignIn extends StatefulWidget {
   @override
   _SignInState createState() => _SignInState();
 }
 
-class _SignInState extends State<SignIn> {
+class _SignInState extends State<_SignIn> {
   final formKey = GlobalKey<FormState>();
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
 
   bool isLoading = false;
 
+  
   @override
+
+  
   Widget build(BuildContext context) {
 
-    final firebaseUser = context.watch<User>;
-
-    if (firebaseUser != null) {
       return Scaffold(
         appBar: AppBar(
           title: Text("Sign In"),
@@ -89,7 +87,7 @@ class _SignInState extends State<SignIn> {
           ],
         )),
       );
-    }
-    return Text("Not signed in");
+    
+    
   }
 }
